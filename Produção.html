@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Produção</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  
+  <link rel="stylesheet" href="produção.css">
+</head>
+
+<body>
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  
+  <div class="card-custom">
+
+    <h2 class="title">Produção</h2>
+
+    <div class="bolinhas bolinhas1"></div>
+    <div class="bolinhas bolinhas2"></div>
+    
+    <div class="mb-3">
+      <label class="form-label">Produto</label>
+      <div class="input-group">
+
+        <span class="input-group-text">
+            <i class="bi bi-search"></i>
+        </span>
+    
+        <input type="text"
+               class="form-control"
+               placeholder="Procure seu produto...">
+    
+    
+               <button class="btn btn-search">
+                Buscar
+            </button>
+
+           
+    </div>
+
+   
+    
+    <div class="mb-3">
+      <label class="form-label">Status</label>
+      <select class="form-control">
+        <option>Selecione o status</option>
+        <option>Em produção</option>
+        <option>Finalizado</option>
+        <option>Pendente</option>
+      </select>
+    </div>
+
+    
+    <div class="mb-3">
+      <label class="form-label">Prazo</label>
+      <input type="date" class="form-control">
+    </div>
+
+    
+    <div class="mb-3">
+      <label class="form-label">Localização</label>
+      <input type="text" class="form-control" placeholder="Informe a localização">
+    </div>
+
+    
+    <div class="mb-3">
+      <label class="form-label">Funcionário Responsável</label>
+      <input type="text" class="form-control" placeholder="Informe o funcionário">
+    </div>
+
+    
+    <div class="mb-3">
+      <label class="form-label">Cliente</label>
+      <input type="text" class="form-control" placeholder="Informe o cliente">
+    </div>
+
+    
+    <button class="btn btn-save w-100" >
+        <i class="bi bi-floppy"></i>
+      Salvar
+    </button>
+
+  </div>
+
+</div>
+
+</body>
+</html>
